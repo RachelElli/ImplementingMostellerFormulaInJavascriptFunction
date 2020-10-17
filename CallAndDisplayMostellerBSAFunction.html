@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="calculateBodySurfaceAreaMosteller.js"></script>
+
+</head>
+
+<body>
+
+<input type="button" onclick="calculateBodySurfaceAreaMosteller(90, 0, '[in_i]', 140, 'lbs', 'm2')" value="run external javascript">
+
+<script> results=calculateBodySurfaceAreaMosteller(90, 0, '[in_i]', 140, 'lbs', 'm2'); 
+document.write("The Body Surface Area is:  ", results.BodySurfaceArea);
+document.write("In units:  ", results.units);
+document.write("Which has a LOINC code of:  ", results.LOINCcode);
+
+
+
+
+</script>
+
+
+
+</body>
+</html>
